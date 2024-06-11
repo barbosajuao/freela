@@ -4,19 +4,25 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+.ImgMobile{
+    display: none;
+}
+.buttombanner{
+    display: none;
+}
 header{
     width: 100%;
     height: 55px;
     background:linear-gradient(to right,#ec0102,#f22757);
     color: white;
     text-align: center;
-    padding-top: 13px;
+    padding-top: 15px;
+    font-weight: bold;
 }
 #headercontainer{
-    width: 80%;
-    margin-left:11% ;
-    font-size: 10px;
+    width:90%;
+    margin-left:5% ;
+    font-size: 8px;
     
 
 }
@@ -58,10 +64,198 @@ header{
     margin-bottom: 20px;
 }
  .beneficios{
-    width: 1000px;
+    width: 500px;
     height: 300px;
-    background-color: rgba(0, 255, 255, 0.356);
+    /* background-color: rgba(0, 255, 255, 0.356); */
     display: flex;
     gap: 20px;
 
+}
+.imgb{
+    width: 80px;
+    height: 80px;
+    
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#bn{
+    display: flex;
+    margin-bottom: 20px;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+#img01{
+    background-image: url(/land-page/img/Frame-1171275054.png);
+}
+#img02{
+    width: 70px;
+    background-image: url(/land-page/img/Frame-1171275262.png);
+}
+#img03{
+    background-image: url(/land-page/img/Frame-1171275263.png);
+}
+#img04{
+    background-image: url(/land-page/img/Frame-1171275264.png);
+}
+#img05{
+    background-image: url(/land-page/img/Frame-1171275265.png);
+}
+#bn p{
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsividade */
+
+@media  (max-width:910px){
+    header{
+        height:60px ;
+    }
+}
+
+@media  (max-width:766px){
+
+    .baner{
+        width: 100%;
+        height: 650px;
+        background-image: url(/land-page/img/checout.webp);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding-top: 80px;
+    }
+    .baner{
+        height: 900px;
+        padding-top: 30px;
+    }
+
+    .beneficios{
+        display: none;
+    }
+    .container{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+    .container h2{
+        width: 100%;
+    }
+    .foto{
+        margin: auto;
+    }
+    .estrelas{
+        margin: auto;
+    }
+    .ImgMobile{
+        width: 70%;
+        height: 600px;
+        margin-top: 150px;
+        background-image: url(/land-page/img/Group-1171275455-1-873x1024.webp);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .buttombanner{
+        position: absolute;
+        display: block;
+        width: 85%;
+        height: 50px;
+        background-color: #ffd900;
+        margin-top: 650px;
+        color: black;
+        padding-top: 15px;
+        border-radius: 20px;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.845);
+        font-weight: bold;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
 }
