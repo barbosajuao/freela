@@ -106,3 +106,76 @@ header{
 #bn p{
     font-weight: bold;
 }
+
+#section2{
+    display: flex;
+    padding-top: 50px;
+}
+.container2{
+    display: flex;
+    margin: auto;
+    width: 60%;
+    
+    
+}
+#div50{
+    width: 50%;
+}
+#botao2{
+    width: 250px;
+    height: 40px;
+    border: 1px, solid #22a087;
+    border-radius: 30px;
+    text-align: center;
+    padding: 7px;
+    margin: auto;
+    
+}
+.container2 h2{
+    width: 80%;
+    font-size: 40px;
+    margin: auto;
+    font-style: italic;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    
+}
+.container2 span{
+    color: #22a087;
+}
+#imgm1{
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(/land-page/img/Group-1171275447-1024x993.webp);
+    margin: auto;
+    
+}
+.chek{
+    display: flex;
+    flex-direction: column;
+
+}
+#a57{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+#a57 p {
+    color: #186556;
+    font-size: 20px;
+    font-weight: bold;
+}
+.buttomdesk{
+    width: 500px;
+    height: 60px;
+    background-color: gold;
+    margin-bottom: 50px;
+    text-align: center;
+    border-radius: 50px;
+    padding: 18px;
+    box-shadow: 1px 1px 20px  black;
+    font-weight: bold;
+}
