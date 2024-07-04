@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.sec2mobile{
+    display: none;
+}
 .ImgMobile{
     display: none;
 }
@@ -20,6 +23,8 @@ header{
     padding-top: 15px;
     font-weight: bold;
     position: fixed;
+    z-index: 1000 /* garantindo que o header esteja afrente de todos os elementos da tela  */
+    
 }
 #headercontainer{
     width:90%;
