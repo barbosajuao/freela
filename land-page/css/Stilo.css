@@ -184,3 +184,15 @@ header{
     box-shadow: 1px 1px 20px  black;
     font-weight: bold;
 }
+
+
+.section3{
+    background-color: #318979;
+}
+#imgm2{
+    width: 80%;
+    height: 50%;
+    background-image: url(/land-page/img/imageee-1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
