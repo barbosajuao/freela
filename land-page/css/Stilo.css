@@ -189,10 +189,85 @@ header{
 .section3{
     background-color: #318979;
 }
-#imgm2{
+#imgsec{
     width: 80%;
     height: 50%;
     background-image: url(/land-page/img/imageee-1.png);
     background-repeat: no-repeat;
     background-size: 100%;
+} 
+#imgsec1{
+    width: 800px;
+    height: 200px;
+    background-image: url(/land-page/img/Group-1171275438.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 30px;
 }
+#a57 h2{
+    color: white;
+    margin: 0;
+    text-align: left;
+    
+}
+
+#imgsec2{
+    width: 800px;
+    height: 200px;
+    background-image: url(/land-page/img/Group-1171275438.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+#imgsec3{
+    width: 800px;
+    height: 200px;
+    background-image: url(/land-page/img/Group-1171275438.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+#imgsec4{
+    width: 800px;
+    height: 200px;
+    background-image: url(/land-page/img/Group-1171275438.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+#imgsec5{
+    width: 800px;
+    height: 200px;
+    background-image: url(/land-page/img/Group-1171275438.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+#imgsec6{
+    width: 800px;
+    height: 200px;
+    background-image: url(/land-page/img/Group-1171275438.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+#imgsec7{
+    width: 800px;
+    height: 200px;
+    background-image: url(/land-page/img/Group-1171275438.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+#imgsec8{
+    width: 800px;
+    height: 200px;
+    background-image: url(/land-page/img/Group-1171275438.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+.container2 p {
+    color: white;
+}
+
