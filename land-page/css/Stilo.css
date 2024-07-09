@@ -214,7 +214,7 @@ header{
 #imgsec2{
     width: 800px;
     height: 200px;
-    background-image: url(/land-page/img/Group-1171275438.png);
+    background-image: url(/land-page/img/Group-1171275439.png);
     background-size: 100%;
     background-repeat: no-repeat;
     margin-top: 30px;
@@ -222,7 +222,7 @@ header{
 #imgsec3{
     width: 800px;
     height: 200px;
-    background-image: url(/land-page/img/Group-1171275438.png);
+    background-image: url(/land-page/img/Group-1171275440.png);
     background-size: 100%;
     background-repeat: no-repeat;
     margin-top: 30px;
@@ -230,7 +230,7 @@ header{
 #imgsec4{
     width: 800px;
     height: 200px;
-    background-image: url(/land-page/img/Group-1171275438.png);
+    background-image: url(/land-page/img/Group-1171275441.png);
     background-size: 100%;
     background-repeat: no-repeat;
     margin-top: 30px;
@@ -238,7 +238,7 @@ header{
 #imgsec5{
     width: 800px;
     height: 200px;
-    background-image: url(/land-page/img/Group-1171275438.png);
+    background-image: url(/land-page/img/Group-1171275442.png);
     background-size: 100%;
     background-repeat: no-repeat;
     margin-top: 30px;
@@ -246,7 +246,7 @@ header{
 #imgsec6{
     width: 800px;
     height: 200px;
-    background-image: url(/land-page/img/Group-1171275438.png);
+    background-image: url(/land-page/img/Group-1171275443.png);
     background-size: 100%;
     background-repeat: no-repeat;
     margin-top: 30px;
@@ -254,7 +254,7 @@ header{
 #imgsec7{
     width: 800px;
     height: 200px;
-    background-image: url(/land-page/img/Group-1171275438.png);
+    background-image: url(/land-page/img/Group-1171275444.png);
     background-size: 100%;
     background-repeat: no-repeat;
     margin-top: 30px;
@@ -262,13 +262,38 @@ header{
 #imgsec8{
     width: 800px;
     height: 200px;
-    background-image: url(/land-page/img/Group-1171275438.png);
+    background-image: url(/land-page/img/Group-1171275445.png);
     background-size: 100%;
     background-repeat: no-repeat;
     margin-top: 30px;
 }
 #colorb p{
     color: white;
+    text-align: center;
+    
+}
+#colorb1 h2{
+    width: 400px;
+    color: white;
+    text-align: center;
+    
+}
+#colorb1 p{
+    color: white;
+    text-align: center;
+    
+}
+#colorb p {
+    font-style: italic;
+    text-align: left;
+    font-weight: 400;
+}
+.section3 .container2 #a57{
+    margin-bottom: 0;
+}
+.container2 .buttomdesk{
+   
+   margin-top: 50px;
 }
 
 
