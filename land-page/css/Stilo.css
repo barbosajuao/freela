@@ -5,7 +5,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body{
-    width: 100vw;
+    
 }
 .sec2mobile{
     display: none;
@@ -301,7 +301,7 @@ header{
 
 
 .sec04{
-    width: 100vw;
+    /* width: 100vw; */
     height: 800px;
     padding-top: 80px;
     display: flex;
@@ -336,18 +336,14 @@ header{
     width: 380px;
     height: 130px;
     padding: 20px;
-    background-color: #22a087;
+    background-color: #13493e;
     position: absolute;
     margin-top: 480px;
     border-radius: 30px;
     
 }
 
-.imgsec4{
-    width: 100px;
-    height: 100px;
-    background-color: bisque;
-}
+
 
 #containerd4{
     display: flex;
@@ -357,6 +353,67 @@ header{
 #colun{
     display: flex;
     flex-direction: column;
+    
+}
+#flexitem{
+    width: 350px;
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    
+    
+}
+#a59 p{
+    width: 300px;
 }
 
+#imgsec41{
+    width: 200px;
+    height:150px;
+    background-image: url(/land-page/img/unsplash_tMFeatBSS4s-1-1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#imgsec42{
+    width: 200px;
+    height:150px;
+    background-image: url(/land-page/img/unsplash_tMFeatBSS4s-1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#imgsec43{
+    width: 200px;
+    height:150px;
+    background-image: url(/land-page/img/unsplash_tMFeatBSS4s-2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#imgsec44{
+    width: 200px;
+    height:150px;
+    background-image: url(/land-page/img/unsplash_tMFeatBSS4s-3.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#containerd4 p {
+    color: #175f51;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#txt{
+    padding-left: 30px;
+}
+
+#txt h2{
+    font-size: 35px;
+    width: 300px;
+    
+
+}
+#spanimg{
+    color: white;
+    font-weight: bold;
+}
 

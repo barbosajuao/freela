@@ -20,6 +20,9 @@
 }
 
 @media  (max-width:860px){
+    header{
+        width: 100%;
+    }
     .sec2mobile{
         display: block;
         display: flex;
@@ -104,6 +107,7 @@
     }
 
     .container2{
+        width: 100%;
         flex-direction: column;
         justify-content: center;
        
@@ -195,6 +199,7 @@
 }
 
 @media  (max-width:766px){
+    
 
     .baner{
         width: 100%;
@@ -253,12 +258,32 @@
         font-weight: bold;
     }
 
+    .sec04{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    #a58{
+        width: 100%;
+        margin:0 auto;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+        
+    }
+    #spanimg{
+        
+        margin-top: 390px;
+    }
+
 
 
 }
 @media  (max-width:500px){
     header{
-        
+        width: 100%;
         height: 90px;
         
        
@@ -324,6 +349,40 @@
         width: 90%;
         background-size: 100% ;
     }
+    .img12{
+        width: 90%;
+        margin: auto;
+    }
+   .mobile{
+    width: 50%;
+    
+   }
+   #colun{
+    width: 50%;
+    text-align: center;
+   }
+   #colun p{
+    font-size: 15px;
+   }
+   #flexitem{
+    width: 80%;
+    flex-direction: column;
+    text-align: center;
+
+    
+   }
+   #txt{
+    margin-top: 150px;
+    text-align: center;
+    
+   }
+   #spanimg{
+    width: 95%;
+    margin-left: 10px;
+   }
+   #txt h2{
+    margin: auto;
+   }
 
 }
 @media  (max-width:377px){
