@@ -20,8 +20,8 @@ body {
 
 .carousel-wrapper {
     display: flex;
-    
-    animation: scroll 30s linear infinite;
+    gap: 30px;
+    animation: scroll 40s linear infinite;
     width: 200%; /* Adjusted to accommodate duplicated slides */
 }
 
@@ -34,7 +34,10 @@ body {
     0% {
         transform: translateX(0);
     }
-    100% {
-        transform: translateX(-50%);
+    50%{
+        transform: translateX(-50%)
     }
+     100% {
+        transform: translateX(0);
+    } 
 }
