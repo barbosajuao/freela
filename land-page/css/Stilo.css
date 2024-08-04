@@ -448,15 +448,18 @@ header{
 }
 .container-conteudo p{
     width: 80%;
-    margin: auto;
+    margin: 0 auto;
+    margin-bottom: 10px;
     text-align: center;
     color: white;
+    font-size: 20px;
+    font-weight: bolder;
 }
 .container-slider{
-    width: 100%;
+    width: 70%;
     height: 70%;
-    background-color: aliceblue;
-    margin: auto;
+    margin: 0 auto;
+    margin-bottom: 30px;
     overflow: hidden;
     position: relative;
     display: flex;
@@ -464,48 +467,62 @@ header{
 }
 
 .carrosel-waper{
-    width: 400%; /* Adjusted to accommodate duplicated slides */
+    width: 600%; /* Adjusted to accommodate duplicated slides */
     display: flex;
     gap: 10px;
-    animation: scroll 80s linear infinite;
+    animation: scroll 120s linear infinite;
     
     
 }
 
 .carrosel-slider1{
-    width: 500px;
+    width: 200px;
     height: 100%px;
-    background-color: #6fec01;
+    background-image: url(/land-page/img/Group-1171275415.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 .carrosel-slider2{
-    width: 500px;
+    width: 200px;
     height: 100%px;
-    background-color: #ec9a01;
+    background-image: url(/land-page/img/Group-1171275416.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 .carrosel-slider3{
-    width: 500px;
+    width: 200px;
     height: 100%px;
-    background-color: #0d01ec;
+    background-image: url(/land-page/img/Group-1171275417.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 .carrosel-slider4{
-    width: 500px;
+    width: 200px;
     height: 100%px;
-    background-color: #ec01a9;
+    background-image: url(/land-page/img/Group-1171275418.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 .carrosel-slider5{
-    width: 500px;
+    width: 200px;
     height: 100%px;
-    background-color: #e4ec01;
+    background-image: url(/land-page/img/Group-1171275419.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 .carrosel-slider6{
-    width: 500px;
+    width: 200px;
     height: 100%px;
-    background-color: #015fec;
+    background-image: url(/land-page/img/Group-1171275420.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 .carrosel-slider7{
-    width: 500px;
+    width: 200px;
     height: 100%px;
-    background-color: #ec0101;
+    background-image: url(/land-page/img/Group-1171275421.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 
