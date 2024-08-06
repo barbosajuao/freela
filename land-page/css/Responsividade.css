@@ -415,58 +415,61 @@
     
     text-align: center;
    }
+   .carrosel-waper{
+    width: 4500px;
+   }
    .container-slider{
     width: 70%;
-    height: 200px;
+    height: 300px;
    }
    .carrosel-slider1{
-    width: 400px;
-    height: 50%px;
+    width: 800px;
+    height: 60%px;
     background-image: url(/land-page/img/Group-1171275415.webp);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 100% ;
 }
 .carrosel-slider2{
-    width: 400px;
+    width: 800px;
     height: 50%px;
     background-image: url(/land-page/img/Group-1171275416.webp);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 100% ;
 }
 .carrosel-slider3{
-    width: 400px;
+    width: 800px;
     height: 50%px;
     background-image: url(/land-page/img/Group-1171275417.webp);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 100% ;
 }
 .carrosel-slider4{
-    width: 400px;
+    width: 800px;
     height: 50%px;
     background-image: url(/land-page/img/Group-1171275418.webp);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 100% ;
 }
 .carrosel-slider5{
-    width: 400px;
+    width: 800px;
     height: 50%px;
     background-image: url(/land-page/img/Group-1171275419.webp);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 100% ;
 }
 .carrosel-slider6{
-    width: 400px;
+    width: 800px;
     height: 50%px;
     background-image: url(/land-page/img/Group-1171275420.webp);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 100% ;
 }
 .carrosel-slider7{
-    width: 400px;
+    width: 800px;
     height: 50%px;
     background-image: url(/land-page/img/Group-1171275421.webp);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 100% ;
 }
 
 
