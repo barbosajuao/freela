@@ -456,4 +456,68 @@ header{
     font-weight: bolder;
 }
 
+.section-06{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    padding-top: 40px ;
+}
+.center-section-6{
+    width: 70%;
+    height: 90%;
+    margin: auto;
+    display: flex;
+    
+}
+.container-sec1{
+    width: 50%;
+    text-align: center;
+   
+}
+.container-sec2{
+    width: 50%;
+    text-align: center;
+}
+.img-section-06{
+    width: 70%;
+    height: 80%;
+    background-image: url(/land-page/img/Group-1171275417.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: auto;
+}
+.container-sec1 p{
+    color: #22a087;
+}
+.container-sec1 h1{
+    width: 150px;
+    margin: auto;
+    font-size: 30px;
+}
+.icon-img1 svg{
+    width: 100px;
+    height: 100px;
+    
+}
+.icon-img2 svg{
+    width: 100px;
+    height: 100px;
+    
+}
+.icon-img3 svg{
+    width: 100px;
+    height: 100px;
+    
+}
+.container-sec2 p{
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    color: #175f51;
+    font-weight: bolder;
+}
+.container-sec2{
+    padding-right: 300px;
+}
+
 
