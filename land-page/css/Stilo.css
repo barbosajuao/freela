@@ -519,5 +519,51 @@ header{
 .container-sec2{
     padding-right: 300px;
 }
+.section-07{
+    width: 100%;
+    height: 600px;
+}
+.container-section-07{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: #2a9781;
+    padding-top: 30px;
+}
+ul li{
+    display: flex;
+    list-style-type : none;
+    margin-bottom: 10px;
+    text-align:inherit;
+    
+}
+li p{
+    margin-top: 5px;
+    color: white;
+}
+.bloco02-section-07{
+    width: 50%;
+}
+.bloco01-section-07{
+    width: 50%;
+    padding-top: 60px;
+    
+   
+    
+}
+.img-section-07{
+    width: 55%;
+    height: 100%;
+    background-image: url(/land-page/img/Group-1171275412.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: 35%;
+}
+.material-symbols-outlined{
+    color: #00ff3c;
+}
+span{
+    margin-top: 5PX;
+}
 
 
