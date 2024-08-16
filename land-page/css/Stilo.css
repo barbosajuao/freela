@@ -5,6 +5,13 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+:root {/* variaveis  */
+    --primary-color: #318979;
+    --secondary-color: #1f6154;
+    --button-color: gold;
+    
+}
+
 .sec2mobile{
     display: none;
 }
@@ -177,7 +184,7 @@ header{
 .buttomdesk{
     width: 500px;
     height: 60px;
-    background-color: gold;
+    background-color:var(--button-color);
     margin-bottom: 50px;
     text-align: center;
     border-radius: 50px;
@@ -188,7 +195,7 @@ header{
 
 
 .section3{
-    background-color: #318979;
+    background-color: var(--primary-color);/* utilizando variavel color */
 }
 #imgsec{
     width: 80%;
@@ -334,7 +341,7 @@ header{
     width: 380px;
     height: 130px;
     padding: 20px;
-    background-color: #13493e;
+    background-color:var(--secondary-color);
     position: absolute;
     margin-top: 480px;
     border-radius: 30px;
@@ -421,7 +428,7 @@ header{
 .container-05{
     width: 100%;
     height: 500px;
-    background-color: #175f51;
+    background-color:var(--primary-color);
     padding-top: 20px;
 }
 .container-conteudo{
@@ -527,7 +534,7 @@ header{
     width: 100%;
     height: 100%;
     display: flex;
-    background-color: #2a9781;
+    background-color:var(--primary-color);
     padding-top: 30px;
 }
 ul li{
@@ -580,6 +587,18 @@ span{
     text-decoration: none;
     font-size: large;
     font-weight: 400;
+}
+.button-sec07{
+    width: 50%;
+    height: 50px;
+    background-color: var(--button-color);
+    color: black;
+    border-radius: 40px;
+    text-align: center;
+    padding-top: 12px;
+    box-shadow: 2px 2px 20px black;
+    font-weight: bold;
+    
 }
 
 
