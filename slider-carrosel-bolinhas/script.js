@@ -1,3 +1,14 @@
+
+
+
+
+
+
+
+
+
+
+/* document.addEventListener('DOMContentLoaded', ...): Aguarda o carregamento completo do HTML antes de executar qualquer código JavaScript. Isso garante que todos os elementos estejam disponíveis no DOM.  */
 document.addEventListener('DOMContentLoaded', function() {
     var currentIndex = 0;
     var slides = document.querySelectorAll('.slide');
