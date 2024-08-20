@@ -21,9 +21,14 @@ document.addEventListener('DOMContentLoaded', function() {
         document.querySelector('.slider-wrapper').style.transform = 'translateX(' + offset + ')';
 
         // Atualiza as bolinhas
+
+        
         dots.forEach(function(dot) {
             dot.classList.remove('active');
         });
+
+
+
         dots[index].classList.add('active');
     }
 
