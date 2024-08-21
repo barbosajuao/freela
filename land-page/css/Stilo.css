@@ -621,9 +621,9 @@ span{
     
 }
 .container-slider-sec8{
-    width: 600px;
+    width: 300px;
     height: 400px;
-    border: 1px solid black;
+    
     margin: 0 auto;
     margin-top: 30px;
     overflow: hidden;   /* aculta o que passa do container */
@@ -632,7 +632,7 @@ span{
     height: 100%;
     display: flex;
     transition: transform 0.5s ease-in-out; /* ver outras opcoes */
-    background-color: #ec0102;
+    
 } 
 .slider {
     min-width: 100%;
@@ -657,12 +657,12 @@ span{
 }
 
 .voltar{
-    left:50px;
+    left:250px;
     
 }
 
 .proximo{
-    right:50px;
+    right:250px;
     
 }
 .voltar:hover{
@@ -676,11 +676,11 @@ span{
 
 
 .indicadores{
-    width: 57%;
+    width: 100%;
     height: 50px;
     text-align: center;
-    
     position: absolute;
+    left: -5px;
     margin-top: 10px;
     z-index: 1;
 }
@@ -707,23 +707,50 @@ span{
 #slider1 {
     min-width: 100%;
     height: 100%;
-    background-color: #ddd; /* Cor de fundo apenas para visualização */
+    background-image: url(/land-page/img/1c119dcd-97d1-42d0-9c8d-6c0c2b6ce6c1.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 #slider2 {
     min-width: 100%;
     height: 100%;
-    background-color: #fd0606; /* Cor de fundo apenas para visualização */
+    background-image: url(/land-page/img/59bc121f-9db6-46e0-bd4b-db65ef59d825.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 #slider3 {
     min-width: 100%;
     height: 100%;
-    background-color: #654ddddd; /* Cor de fundo apenas para visualização */
+    background-image: url(/land-page/img/9ba927be-2adc-427d-8ecf-7cd55c9b93f2.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 #slider4 {
    min-width: 100%;
    height: 100%;
-   background-color: #dd654ddd; /* Cor de fundo apenas para visualização */
+   background-image: url(/land-page/img/c3b0170f-b11d-4ae6-a384-59452e68b50d.jpeg);
+   background-repeat: no-repeat;
+   background-size: 100%;
 }
+.section-8 .play{
+    
+    
+    font-size: 200px;
+    color: white;
+    font-weight: 100;
+    margin-top: 30%;
+    cursor: pointer;
+    z-index: 1;
+
+}
+.pointer{
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    
+}
+
+
 
 
 

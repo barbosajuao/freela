@@ -20,56 +20,33 @@ document.addEventListener('DOMContentLoaded', function() {
         sliderWrapper.style.transform = 'translateX(' + offset + ')';
 
         // Atualiza as bolinhas
-
-
-
-
         dots.forEach(function(dots) {
            dots.classList.remove('ativado');
         });
-
-
-
         dots[index].classList.add('ativado');
         currentIndex = index;
-
-        
-
-        
     }
-
-
-
-    // Navegação pelas setas
+     // Navegação pelas setas
     document.querySelector('.voltar').addEventListener('click', function() {
         var nextIndex = (currentIndex > 0) ? currentIndex - 1 : slides.length - 1;
         showSlide(nextIndex);
     });
-
-
-
     document.querySelector('.proximo').addEventListener('click', function() {
         var nextIndex = (currentIndex < slides.length - 1) ? currentIndex + 1 : 0;
         showSlide(nextIndex);
     });
-
-
-
-
-
     // Navegação pelas bolinhas
     dots.forEach(function(ponto, index) {
         ponto.addEventListener('click', function() {
             showSlide(index);
         });
     });
-
-    // Exibe o primeiro slide ao carregar
+     // Exibe o primeiro slide ao carregar
     showSlide(0);
 
     // rolagem automatica
-    setInterval(function() {
+     setInterval(function() {
         var nextIndex = (currentIndex < slides.length - 1) ? currentIndex + 1 : 0;
         showSlide(nextIndex);
-    }, autoSlideInterval);
+    }, autoSlideInterval); 
 });
