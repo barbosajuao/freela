@@ -617,6 +617,7 @@ span{
     margin: auto;
     text-align: center;
     padding-top: 50px;
+    color: white;
     
     
 }
@@ -646,6 +647,7 @@ span{
 .voltar, .proximo{ /* aqui eu selecionei a mesma configuracao para os 2 elementos  */
     position:absolute; 
     width: 40px;
+    color: white;
     height: 40px;
     z-index: 1;
     margin-top: -20%;
@@ -748,6 +750,43 @@ span{
     height: 100%;
     z-index: 0;
     
+}
+
+.sec-9{
+    width: 100%;
+    height: 750px;
+}
+.container-9{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#92b679, #1b7360);
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+}
+.youtube{
+    width: 40%;
+    height: 55%;
+    background-color: #92b679;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-image: url(/land-page/img/Lift-Simulacao-2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 40px;
+
+}
+.youtube span{
+    color: white;
+    margin-top: 15%;
+    font-size: 200px;
+    font-weight: 100;
+
+}
+.txt-9{
+    width: 40%;
+    margin: auto;
+    font-size: 25px;
 }
 
 

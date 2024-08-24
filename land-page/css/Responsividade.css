@@ -281,6 +281,7 @@
 
 
 }
+/* .......................................................... */
 @media  (max-width:500px){
     header{
         width: 100%;
@@ -544,10 +545,32 @@
         margin-top: 30px;
     }
 
+    .container-section-8{
+        margin-top: 350px;
+        height: 500px;
+    }
+
+    .container-setas{
+        background-color: #ffd900;
+        left: 0px;
+        margin-top: -100px;
+    }
+    .voltar{
+        left: -50px;
+
+    }
+    .proximo{
+        right: -80px;
+    }
+    .indicadores{
+        margin-top: 120px;
+    }
+
 
 
 
 }
+/* ......................................................................... */
 @media  (max-width:377px){
 
     header{
