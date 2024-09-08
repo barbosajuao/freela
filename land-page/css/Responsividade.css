@@ -566,6 +566,26 @@
         margin-top: 120px;
     }
 
+    .txt-9{
+        height: 300px;
+    }
+    .txt-9 {
+        width: 100%;
+        font-size: 20px;
+    }
+    .youtube{
+        width: 95%;
+        height: 250px;
+        margin-top: -80px;
+    }
+    .pointer span{
+        margin-top:30px;
+        text-align: center;
+    }
+    .sec-9{
+        height: 600px;
+    }
+
 
 
 
