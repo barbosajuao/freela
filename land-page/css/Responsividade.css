@@ -585,6 +585,29 @@
     .sec-9{
         height: 600px;
     }
+    .container-sec10{
+        flex-direction: column;
+        
+        margin: auto;
+        
+        
+    }
+    .card1, .card2, .card3, .card4{
+        width: 90% ;
+        height: 580px;
+        color: white;
+        font-weight: bolder;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        border-radius: 30px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 30px;
+
+    }
+    .txt-sec-10{
+        height: 200px;
+    }
 
 
 

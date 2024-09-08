@@ -893,6 +893,40 @@ span{
     margin-top: 10px;
     
 }
+.img2-sec10{
+    width: 80%;
+    height: 150px;
+    margin: 0 auto;
+    background-image: url(/land-page/img/Group-1171275432-1024x453.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: -20px;
+}
+.img3-sec10{
+    width: 80%;
+    height: 150px;
+    margin: 0 auto;
+    background-image: url(/land-page/img/Group-1171275430-1024x414.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: -20px;
+
+}
+.img4-sec10{
+    width: 80%;
+    height: 150px;
+    margin: 0 auto;
+    background-image: url(/land-page/img/Group-1171275433-1024x574.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: -20px;
+}
+.txt-sec-10 h1{
+    font-size: 50px;
+}
+.txt-sec-10 p{
+    font-size: 20px;
+}
 
 
 
