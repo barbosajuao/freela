@@ -8,7 +8,7 @@
 :root {/* variaveis  */
     --primary-color: #318979;
     --secondary-color: #1f6154;
-    --button-color: gold;
+    
     
 }
 
@@ -181,16 +181,19 @@ header{
     font-size: 20px;
     font-weight: bold;
 }
-.buttomdesk{
+.buttomtela{/* 00000000000000000000000000000000000000000000000000000000 */
     width: 500px;
     height: 60px;
-    background-color:var(--button-color);
+    background-color:gold;
+    margin: 0 auto;
     margin-bottom: 50px;
+    margin-top: 20px;
     text-align: center;
     border-radius: 50px;
     padding: 18px;
     box-shadow: 1px 1px 20px  black;
     font-weight: bold;
+    color: black;
 }
 
 
@@ -302,6 +305,8 @@ header{
 .container2 .buttomdesk{
    
    margin-top: 50px;
+   cursor: pointer;
+   
 }
 
 
@@ -588,16 +593,8 @@ span{
     font-size: large;
     font-weight: 400;
 }
-.button-sec07{
-    width: 50%;
-    height: 50px;
-    background-color: var(--button-color);
-    color: black;
-    border-radius: 40px;
-    text-align: center;
-    padding-top: 12px;
-    box-shadow: 2px 2px 20px black;
-    font-weight: bold;
+#botao7{
+    margin-left: -50px;
     
 }
 .section-8{
@@ -877,7 +874,7 @@ span{
     background-color: #175f5186;
     margin: auto;
 }
-.button-card1{
+.buttoncard{/* 00000000000000000000000000000000000000000000 */
     width: 50%;
     height: 40px;
     background-color: #fda200;
@@ -1099,6 +1096,44 @@ footer{
     font-size: 20px;
     
 }
+.img-modal{
+    width: 100px;
+    height: 100px;
+    background-image: url(/land-page/img/modal.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: auto;
+}
+.dialog{
+    width: 40%;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+    padding: 30px;
+
+}
+.container-modal{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.sairmodal{
+    width: 50%;
+    height: 50px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+dialog::backdrop{
+    background-color: rgba(28, 28, 28, 0.705);
+}
+    
+
 
 
 

@@ -3,16 +3,45 @@
 
 
 
+/* buttomtela */
+/* buttoncard */
+/* pointer */
+
+/* tudo para a janela modal */
+var janelamodal = document.querySelector(`.dialog`) /*  muito cuidado com os seletores muitas coisas o all nao funciona  */
+var abrirmodal = document.querySelectorAll(`.buttomtela, .buttoncard, .pointer`)
+var feicharmodal = document.querySelector(`.sairmodal`)
 
 
 
-                            /* aguarda o carregamento da pagina */
+abrirmodal.forEach(function(bottontela) {
+    bottontela.addEventListener(`click`, function() {
+        janelamodal.showModal()
+    });
+})
+
+feicharmodal.addEventListener(`click`, function(){
+    janelamodal.close()
+})
+
+
+
+
+
+
+/* aguarda o carregamento da pagina */
 document.addEventListener('DOMContentLoaded', function() {
+
     var sliderWrapper = document.querySelector('.slider-wrapper');
     var slides = document.querySelectorAll('.slider');
     var dots = document.querySelectorAll('.ponto');
     var currentIndex = 0;
     var autoSlideInterval = 5000; // Tempo em milissegundos (3000ms = 3 segundos)
+
+    
+    
+
+    
 
     function showSlide(index) {
         // Calcula o deslocamento necessário para o slide atual
@@ -49,4 +78,9 @@ document.addEventListener('DOMContentLoaded', function() {
         var nextIndex = (currentIndex < slides.length - 1) ? currentIndex + 1 : 0;
         showSlide(nextIndex);
     }, autoSlideInterval); 
+
+
+
+    
 });
+
