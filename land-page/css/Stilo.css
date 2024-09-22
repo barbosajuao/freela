@@ -993,7 +993,17 @@ span{
     text-align: center;
     color: white;
 }
+.titulo-sec11-div2{
+    width: 450px;
+    font-size: 35px;
+    color: white;
+    margin-bottom: 30px;
 
+}
+.container2-sec-11 .div2 p{
+    color: white;
+    margin-top: 20px;
+}
 
 
 
